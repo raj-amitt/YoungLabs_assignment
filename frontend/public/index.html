@@ -1,17 +1,35 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Ensures responsive design on mobile devices -->
     <meta name="description" content="Younglabs Greeting App" />
-    <title>Younglabs Greeting App</title>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="%PUBLIC_URL%/styles.css" />
 
+    <title>Younglabs Greeting App</title>
+    <!-- Sets the webpage title -->
+
+    <!-- Importing Flowbite CSS for UI components -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Linking an external stylesheet for custom styles -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/styles.css" />
   </head>
-  <body class="bg-cover bg-center" style="background-image: url('assets/youngLabsBackground.png')">
+
+  <body
+    class="bg-cover bg-center"
+    style="background-image: url('assets/youngLabsBackground.png')"
+  >
+    <!-- Setting a background image and applying styles -->
+
     <div id="root"></div>
+    <!-- React will mount the app inside this div -->
+
+    <!-- Importing Flowbite JavaScript for interactive components -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script>
   </body>
 </html>
